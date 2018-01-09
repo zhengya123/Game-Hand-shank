@@ -32,3 +32,4 @@
         
         [weakSelf.ptzControlView shouldSwipe:YES];
     });
+Game-Hand-shank/666.gif
