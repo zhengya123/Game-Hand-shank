@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C73377292003202C006CD591 /* PTZConTroView.m in Sources */ = {isa = PBXBuildFile; fileRef = C73377282003202C006CD591 /* PTZConTroView.m */; };
+		C733772C20034628006CD591 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C733772B20034628006CD591 /* SecViewController.m */; };
 		C73DDD941FFF5D1B00903D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C73DDD931FFF5D1B00903D06 /* main.m */; };
 		C73DDD971FFF5D1B00903D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C73DDD961FFF5D1B00903D06 /* AppDelegate.m */; };
 		C73DDD9A1FFF5D1B00903D06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73DDD991FFF5D1B00903D06 /* ViewController.m */; };
@@ -15,6 +17,16 @@
 		C73DDDA21FFF5D1B00903D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73DDDA01FFF5D1B00903D06 /* LaunchScreen.storyboard */; };
 		C73DDDAD1FFF5D1B00903D06 /* PTZVC_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73DDDAC1FFF5D1B00903D06 /* PTZVC_TestTests.m */; };
 		C73DDDB81FFF5D1B00903D06 /* PTZVC_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73DDDB71FFF5D1B00903D06 /* PTZVC_TestUITests.m */; };
+		C73DDDCA1FFF5E1600903D06 /* CommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C73DDDC91FFF5E1600903D06 /* CommonMethod.m */; };
+		C73DDDD01FFF753C00903D06 /* PTZControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C73DDDCF1FFF753C00903D06 /* PTZControlView.m */; };
+		C73DDDD41FFF760F00903D06 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = C73DDDD31FFF760F00903D06 /* right.png */; };
+		C73DDDD61FFF765A00903D06 /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = C73DDDD51FFF765900903D06 /* bottom.png */; };
+		C73DDDD81FFF767C00903D06 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = C73DDDD71FFF767C00903D06 /* left.png */; };
+		C73DDDDA1FFF769D00903D06 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = C73DDDD91FFF769D00903D06 /* top.png */; };
+		C73DDDED1FFF7ABE00903D06 /* right_select.png in Resources */ = {isa = PBXBuildFile; fileRef = C73DDDE91FFF7ABE00903D06 /* right_select.png */; };
+		C73DDDEE1FFF7ABE00903D06 /* bottom_select.png in Resources */ = {isa = PBXBuildFile; fileRef = C73DDDEA1FFF7ABE00903D06 /* bottom_select.png */; };
+		C73DDDEF1FFF7ABE00903D06 /* left_select.png in Resources */ = {isa = PBXBuildFile; fileRef = C73DDDEB1FFF7ABE00903D06 /* left_select.png */; };
+		C73DDDF01FFF7ABE00903D06 /* top_select.png in Resources */ = {isa = PBXBuildFile; fileRef = C73DDDEC1FFF7ABE00903D06 /* top_select.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C73377272003202C006CD591 /* PTZConTroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTZConTroView.h; sourceTree = "<group>"; };
+		C73377282003202C006CD591 /* PTZConTroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTZConTroView.m; sourceTree = "<group>"; };
+		C733772A20034628006CD591 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		C733772B20034628006CD591 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
 		C73DDD8F1FFF5D1B00903D06 /* PTZVC_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTZVC_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73DDD931FFF5D1B00903D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C73DDD951FFF5D1B00903D06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +67,18 @@
 		C73DDDB31FFF5D1B00903D06 /* PTZVC_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTZVC_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73DDDB71FFF5D1B00903D06 /* PTZVC_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTZVC_TestUITests.m; sourceTree = "<group>"; };
 		C73DDDB91FFF5D1B00903D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73DDDC81FFF5E1600903D06 /* CommonMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethod.h; sourceTree = "<group>"; };
+		C73DDDC91FFF5E1600903D06 /* CommonMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethod.m; sourceTree = "<group>"; };
+		C73DDDCE1FFF753C00903D06 /* PTZControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTZControlView.h; sourceTree = "<group>"; };
+		C73DDDCF1FFF753C00903D06 /* PTZControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTZControlView.m; sourceTree = "<group>"; };
+		C73DDDD31FFF760F00903D06 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		C73DDDD51FFF765900903D06 /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
+		C73DDDD71FFF767C00903D06 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		C73DDDD91FFF769D00903D06 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		C73DDDE91FFF7ABE00903D06 /* right_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_select.png; sourceTree = "<group>"; };
+		C73DDDEA1FFF7ABE00903D06 /* bottom_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_select.png; sourceTree = "<group>"; };
+		C73DDDEB1FFF7ABE00903D06 /* left_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_select.png; sourceTree = "<group>"; };
+		C73DDDEC1FFF7ABE00903D06 /* top_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_select.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +129,26 @@
 		C73DDD911FFF5D1B00903D06 /* PTZVC_Test */ = {
 			isa = PBXGroup;
 			children = (
+				C73DDDE91FFF7ABE00903D06 /* right_select.png */,
+				C73DDDEA1FFF7ABE00903D06 /* bottom_select.png */,
+				C73DDDEB1FFF7ABE00903D06 /* left_select.png */,
+				C73DDDEC1FFF7ABE00903D06 /* top_select.png */,
+				C73DDDD91FFF769D00903D06 /* top.png */,
+				C73DDDD71FFF767C00903D06 /* left.png */,
+				C73DDDD31FFF760F00903D06 /* right.png */,
+				C73DDDD51FFF765900903D06 /* bottom.png */,
+				C73DDDC81FFF5E1600903D06 /* CommonMethod.h */,
+				C73DDDC91FFF5E1600903D06 /* CommonMethod.m */,
 				C73DDD951FFF5D1B00903D06 /* AppDelegate.h */,
 				C73DDD961FFF5D1B00903D06 /* AppDelegate.m */,
 				C73DDD981FFF5D1B00903D06 /* ViewController.h */,
 				C73DDD991FFF5D1B00903D06 /* ViewController.m */,
+				C733772A20034628006CD591 /* SecViewController.h */,
+				C733772B20034628006CD591 /* SecViewController.m */,
+				C73DDDCE1FFF753C00903D06 /* PTZControlView.h */,
+				C73DDDCF1FFF753C00903D06 /* PTZControlView.m */,
+				C73377272003202C006CD591 /* PTZConTroView.h */,
+				C73377282003202C006CD591 /* PTZConTroView.m */,
 				C73DDD9B1FFF5D1B00903D06 /* Main.storyboard */,
 				C73DDD9E1FFF5D1B00903D06 /* Assets.xcassets */,
 				C73DDDA01FFF5D1B00903D06 /* LaunchScreen.storyboard */,
@@ -249,9 +293,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73DDDEF1FFF7ABE00903D06 /* left_select.png in Resources */,
+				C73DDDED1FFF7ABE00903D06 /* right_select.png in Resources */,
 				C73DDDA21FFF5D1B00903D06 /* LaunchScreen.storyboard in Resources */,
+				C73DDDEE1FFF7ABE00903D06 /* bottom_select.png in Resources */,
 				C73DDD9F1FFF5D1B00903D06 /* Assets.xcassets in Resources */,
+				C73DDDD81FFF767C00903D06 /* left.png in Resources */,
+				C73DDDF01FFF7ABE00903D06 /* top_select.png in Resources */,
+				C73DDDD41FFF760F00903D06 /* right.png in Resources */,
+				C73DDDDA1FFF769D00903D06 /* top.png in Resources */,
 				C73DDD9D1FFF5D1B00903D06 /* Main.storyboard in Resources */,
+				C73DDDD61FFF765A00903D06 /* bottom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +331,10 @@
 				C73DDD9A1FFF5D1B00903D06 /* ViewController.m in Sources */,
 				C73DDD971FFF5D1B00903D06 /* AppDelegate.m in Sources */,
 				C73DDD941FFF5D1B00903D06 /* main.m in Sources */,
+				C73DDDCA1FFF5E1600903D06 /* CommonMethod.m in Sources */,
+				C73377292003202C006CD591 /* PTZConTroView.m in Sources */,
+				C73DDDD01FFF753C00903D06 /* PTZControlView.m in Sources */,
+				C733772C20034628006CD591 /* SecViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +574,7 @@
 				C73DDDBE1FFF5D1B00903D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C73DDDBF1FFF5D1B00903D06 /* Build configuration list for PBXNativeTarget "PTZVC_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +583,7 @@
 				C73DDDC11FFF5D1B00903D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C73DDDC21FFF5D1B00903D06 /* Build configuration list for PBXNativeTarget "PTZVC_TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +592,7 @@
 				C73DDDC41FFF5D1B00903D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
